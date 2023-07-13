@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
+
+@font-face {
+  font-family: "MTNBrighterSans-Medium";
+  src: url("../components/Assets/MTNBrighterSansLight.eot");
+  src: url("../components/Assets/MTNBrighterSansLight.woff")
+    format("woff");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: MTNBrighterSans-Medium, "Gothic A1";
+}
+
+:root {
+    /* --swiper-theme-color: #007aff */
+    --swiper-theme-color: #FFCC00 !important
+}
+
+.mainContainer{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+    h3{
+        font-size: 2rem;
+        color: black;
+        padding: 3rem;
+    }
+}
+
+.pictureContainer{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 20px;
+}
+.picture1{
+    display: flex;
+    width: 100%;
+    height: 22rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    flex-basis: 23%;
+    img{
+        width: 100%;
+        height: 22rem;
+    }
+}
+
+.profileVector{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    // align-items: center;
+    justify-content: center;
+    background: url('../components/Assets/ProfileVector.png') no-repeat;
+    img{
+        width: 100%;
+        height: 5rem;
+    }
+}
+.pictureContent{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 2rem;
+}
+.titleContainer{
+    display: flex;
+    width: 100%;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    h4{
+        font-size: 1rem;
+    }
+    h5{
+        font-size: .5rem;
+    }
+}
+
